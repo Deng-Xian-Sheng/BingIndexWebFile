@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--导入关键Css-->
+    <link rel="stylesheet" type="text/css" href="XueAndBing.css" />
+</head>
+
+<body style="background-color: black;">
+    <!--因为雪花是白色的，所以设置Body背景为黑，显示效果出来-->
+
+    <!--雪花和冰封的元素标签-->
+    <div v-if="showXueAndBing" class="hp_special_experience">
+        <div class="hol_frames_cont">
+            <div class="frame fader frost show">
+                <div class="frame_sprite frame_left"></div>
+                <div class="frame_sprite frame_right"></div>
+                <div class="frame_sprite frame_top"></div>
+                <div class="frame_sprite frame_bottom"></div>
+            </div>
+            <div class="frame fader lights">
+                <div class="frame_sprite frame_left"></div>
+                <div class="frame_sprite frame_right"></div>
+                <div class="frame_sprite frame_top"></div>
+                <div class="frame_sprite frame_bottom"></div>
+            </div>
+            <div id="snow_container" class="fader snow show">
+                <div class="snow_slice snow_1">
+                    <div class="snow_drifter drift_1"></div>
+                </div>
+                <div class="snow_slice snow_2">
+                    <div class="snow_drifter drift_2"></div>
+                </div>
+                <div class="snow_slice snow_3">
+                    <div class="snow_drifter drift_3"></div>
+                </div>
+                <div class="snow_slice snow_4">
+                    <div class="snow_drifter drift_4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
